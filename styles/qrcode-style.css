@@ -22,7 +22,7 @@ body {
 .container{
     background-color: var(--card-color);
     width: 280px;
-    height: 400px;
+    height: 450px;
     border-radius: 15px;
     margin-bottom: 80px;
 }
