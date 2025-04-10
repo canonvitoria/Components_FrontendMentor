@@ -22,7 +22,7 @@ body {
 .container{
     background-color: var(--card-color);
     width: 280px;
-    height: 450px;
+    height: 400px;
     border-radius: 15px;
     margin-bottom: 80px;
 }
@@ -32,7 +32,7 @@ body {
     margin: 13px;
     border-radius: 13px;
     width: 255px;
-    height: 250px;
+    height: 230px;
     display: flex;
     justify-content: center;
 }
