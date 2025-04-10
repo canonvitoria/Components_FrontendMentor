@@ -25,6 +25,7 @@ body {
     height: 400px;
     border-radius: 15px;
     margin-bottom: 80px;
+    padding: 2px;
 }
 
 .container-qrcode {
