@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --highlight-paraph: hsl(75, 94%, 57%);
+    --main-textcolor: hsl(0, 0%, 100%);
+    --color-button: hsl(0, 0%, 20%);
+    --color-card: hsl(0, 0%, 12%);
+    --bg-color: hsl(0, 0%, 8%);
+    --main-font: "Inter", sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--color-card);
+    width: 460px;
+    height: 670px;
+    border-radius: 10px;
+}
+
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.card-profile__image {
+    width: 120px;
+}
+
+.card-profile__title {
+    color: var(--main-textcolor);
+    font-weight: 500;
+}
+
+.card-profile__subtitle {
+    margin: -15px;
+    color: var(--highlight-paraph);
+    font-weight: bold;
+}
+.card-profile__paraph {
+    color: rgb(201, 201, 201);
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.card-action > button {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--color-button);
+    color: rgb(224, 223, 223);
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-action > button:hover {
+    background-color: var(--highlight-paraph);
+    transition: background-color 0.3s ease;
+    color: var(--bg-color);
+}
+
+.card-action > button > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    margin-top: 20px;
+    color: rgb(201, 201, 201);
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--highlight-paraph);
+    text-decoration: none;
+}
